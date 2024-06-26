@@ -1,0 +1,112 @@
+.navbar {
+  background: #000000;
+}
+.navbar .navbar-brand img {
+  height: 60px;
+}
+.navbar .nav-link {
+  font: 22px "jersey 15, Inter, Arial";
+  color: #fff;
+  text-transform: uppercase;
+}
+.navbar .nav-link:hover {
+  color: #FF0000;
+}
+
+.btn {
+  font: 20px "jersey 15, Inter, Arial";
+}
+
+body {
+  background-color: #000000;
+  box-sizing: border-box !important;
+}
+
+#main {
+  width: 100%;
+  margin: 30px auto;
+  background-color: #5151514d;
+}
+#main .card-flex {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#main .card-flex .card-block {
+  width: 90%;
+  border-radius: 20px;
+  margin: 20px auto;
+  box-sizing: border-box;
+}
+#main .card-flex .card-block img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+  margin-bottom: 5px;
+}
+#main .card-flex .card-block .card-info {
+  padding: 10px;
+  background-color: #FF0000;
+  border-radius: 0 0 20px 20px;
+}
+#main .card-flex .card-block .card-info p {
+  color: black;
+}
+
+.button-center {
+  text-align: center;
+  margin-top: 15%;
+}
+.button-center a {
+  align-content: center;
+  text-align: center;
+  text-decoration: none;
+  color: #FF0000;
+  font-weight: bold;
+  border-radius: 2px;
+  font-size: 50px;
+}
+
+@media (min-width: 730px) {
+  #main .card-flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #main .card-flex .card-block {
+    width: 30%;
+    border-radius: 20px;
+    margin: 20px auto;
+    box-sizing: border-box;
+  }
+  #main .card-flex .card-block img {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 5px;
+  }
+}
+@media (min-width: 990px) {
+  #main {
+    width: 1000px;
+    margin: 40px auto;
+  }
+  #main .card-flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #main .card-flex .card-block {
+    width: 30%;
+    border-radius: 20px;
+    margin: 20px auto;
+    box-sizing: border-box;
+  }
+  #main .card-flex .card-block img {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 5px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
